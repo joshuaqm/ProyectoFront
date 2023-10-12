@@ -1,6 +1,10 @@
 .cabecera{
     width: 10%;
 }
+.bolsa{
+    width: 4%;
+    margin-right: auto;
+}
 
 .linea{
     border: 1px solid #000;
@@ -19,13 +23,6 @@
     margin: 0 auto;
 }
 
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
-
-.centro{
-    width: 80%;
-}
 
 .mapa{
     height: 80vh;
@@ -33,8 +30,24 @@
 
 .fila{
     width: 120%;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-right: 0.1%;
     margin-left: 0.1%;
     margin-bottom: 0.2%;
 }
+
+.footer{
+    background-color: #fff;
+    color: #0e6402;
+    padding: 1%;
+    text-align: center;
+}
+
+.fab{
+    margin: 1%;
+    font-size: 24px;
+}
+
+.texto_footer{
+    font-size: 200%;
+}	

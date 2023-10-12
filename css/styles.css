@@ -1,0 +1,40 @@
+.cabecera{
+    width: 10%;
+}
+
+.linea{
+    border: 1px solid #000;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+
+.texto-verde{
+    color: #069006;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-item{
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.centro{
+    width: 80%;
+}
+
+.mapa{
+    height: 80vh;
+}
+
+.fila{
+    width: 120%;
+    margin-top: 2%;
+    margin-right: 0.1%;
+    margin-left: 0.1%;
+    margin-bottom: 0.2%;
+}

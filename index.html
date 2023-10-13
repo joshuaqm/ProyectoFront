@@ -22,11 +22,19 @@
 </head>
 <body>
   <!-- Barra de navegacion -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-light bg-light">
     <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+      <div>  
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
+          <img src="css/wingstop_logo.png" class="img-fluid cabecera" alt="wingstop_logo">
+          <img src="css/bolsa.png" class="img-fluid texto-end bolsa" alt="bolsa">
+        </div>
+      </div>
+        
+        
         <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -66,7 +74,7 @@
                   <a class="nav-link" href="#">BEBIDAS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">SOBRE NOSOTROS</a>
+                    <a class="nav-link" href="quienes-somos.html">SOBRE NOSOTROS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">AVISO DE PRIVACIDAD</a>
@@ -78,10 +86,6 @@
         </div>
     </div>
   </nav>
-  <div class="text-center">
-    <img src="css/wingstop_logo.png" class="img-fluid cabecera" alt="wingstop_logo">
-    <img src="css/bolsa.png" class="img-fluid texto-end bolsa" alt="bolsa">
-  </div>
   
  
   <hr class="linea">
@@ -120,8 +124,18 @@
   <div class="text-center">
     <img src="css/salsas.png" class="img-fluid centro" alt="salsas">
   </div>
-  <div class="text-center">
-    <img src="css/mapa.png" class="img-fluid centro mapa" alt="mapaCDMX">
+  <div class="text-center map-container">
+    <div>
+      <img src="css/mapa.png" class="img-fluid centro mapa" alt="mapaCDMX">
+      <p>ENCUENTRA TU WINGSTOP</p>
+    </div>
+    <div>
+      <a href="#" class="btn btn-success mx-auto mt-3">Botón Verde</a>
+    </div>
+  </div>
+
+    
+  
   </div>
 
 
@@ -171,7 +185,7 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container texto_footer">
-      <div class="row">
+      <div class="row justify-content-center">
           <div class="col-md-2 col-12">
               <h6>PROMOCIONES</h6>
           </div>

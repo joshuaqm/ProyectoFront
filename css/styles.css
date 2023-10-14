@@ -93,6 +93,9 @@
 
 
 
+
+
+
 .logo_pagina2 {
     width: 150%;
     margin-left: 40px;
@@ -102,9 +105,11 @@
 
 .btn-order{
     font-family: "Helvetica Ultra Compressed";
+    font-weight: lighter;
     font-size: 2rem;
     padding: 1%;
 }
+
 .navbar-option {
     padding-left: 10%;
     padding-top: 3%;
@@ -112,4 +117,75 @@
     font-family: "Helvetica Ultra Compressed";
     font-weight: bold;
     font-size: 2.1rem;
+}
+
+.img-quienes-somos{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.txt-quienes{
+    font-family: "Helvetica Ultra Compressed";
+    font-size: 5rem;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.linea_pagina2{
+    border: 1px solid #000;
+    margin-left: 3%;
+    margin-right: 3%; 
+}
+
+.subtitles{
+    font-family: "Helvetica Ultra Compressed";
+    font-size: 4rem;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.subtitles-p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-left: 20px;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.valor{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+}
+
+.desc-valor li{
+    margin-bottom: 10px;
+}
+
+ul.subtitles-p li{
+    margin-bottom: 10px;
+}
+
+.green-section{
+    font-family: "Helvetica Ultra Compressed";
+    background-color: #04381d;
+    color: #fff;
+    padding: 5%;
+    
+}
+
+.linea-footer{
+    border: 1px solid #fff;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+
+.icon-footer2{
+    padding-right: 1%;
+
+}
+
+.copyright{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

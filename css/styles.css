@@ -8,6 +8,7 @@
     url("https://db.onlinewebfonts.com/t/74fc282ac1937b053f409b3b70eb1bb6.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/74fc282ac1937b053f409b3b70eb1bb6.svg#Helvetica Ultra Compressed")format("svg");
 }
+/**Primera pagina**/
 .h6 {
     color: #000;
 }
@@ -96,6 +97,11 @@
 
 
 
+
+
+
+
+/**Segunda pagina**/
 .logo_pagina2 {
     width: 150%;
     margin-left: 40px;
@@ -188,4 +194,21 @@ ul.subtitles-p li{
 
 .copyright{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+/**Tercera pagina**/
+.title-page3 {
+    font-family: "Helvetica Ultra Compressed";
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 9%;
+    padding-right: 3%;
 }

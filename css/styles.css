@@ -8,6 +8,17 @@
     url("https://db.onlinewebfonts.com/t/74fc282ac1937b053f409b3b70eb1bb6.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/74fc282ac1937b053f409b3b70eb1bb6.svg#Helvetica Ultra Compressed")format("svg");
 }
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) and (orientation: portrait) {
+    body {
+      background-color: #c0c0c0;
+    }
+  }
 /**Primera pagina**/
 .h6 {
     color: #000;
@@ -36,6 +47,7 @@
 
 .texto-verde{
     color: #069006;
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -55,6 +67,7 @@
 }
 
 .map-container p {
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1.8rem;
@@ -91,6 +104,10 @@
     font-size: 200%;
     font-weight: bold;
 }	
+
+.icon-footer1{
+    color: #0e6402;
+}
 
 
 
@@ -153,7 +170,8 @@
 }
 
 .subtitles-p{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     margin-left: 20px;
     padding-left: 5%;
@@ -161,7 +179,8 @@
 }
 
 .valor{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;   
+    font-family: 'Roboto', sans-serif; 
     font-size: 1.4rem;
 }
 
@@ -189,11 +208,13 @@ ul.subtitles-p li{
 
 .icon-footer2{
     padding-right: 1%;
+    color:#000;
 
 }
 
 .copyright{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -212,3 +233,29 @@ ul.subtitles-p li{
     padding-left: 9%;
     padding-right: 3%;
 }
+
+.icon-footer3{
+    color: #fff;
+    padding-right: 3%;
+}
+
+
+
+
+/**Hover**/
+.social-icon:hover {
+    color: lightblue; 
+}
+  
+.img-prod {
+    transition: transform 0.2s; 
+  }
+  
+  .img-prod:hover {
+    transform: scale(1.1); 
+  }
+
+  .subtitles:hover {
+    color: rgb(236, 92, 255); 
+    text-decoration: underline;
+  }
